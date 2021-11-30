@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element with Class seletor</title>
+     <style>
+         /* all with class= "highlight" */
+         .highlight {
+             background-color: green;
+         }
+         /* all p element with class= "highlight" */
+         p.highlight {
+             font-style: italic;
+         }
+
+         /* all elements with class 'highlight' as well as with class 'mainpoint' */
+         .highlight.mainPoint {
+             color: red;
+             background-color: black;
+
+         }
+     </style>
+</head>
+
+<body>
+   <h1 class= "highlight">Element with Class Selector</h1>
+   <p>Quisque massa tortor, mattis venenatis ipsum nec, pellentesque interdurn ex Morbi a 
+       taciti sociosqu ad litora torquent per
+       eget velit sed rutrum. Etiam sit amet
+       bibendum diam, vel luctus nibh. Fusce 
+       facilisis. Vestibulum varius lacus sit 
+       cursus mauris. Aenean at velit tellus.</p>
+
+
+       <p class= "highlight">Sed et ut ante 
+           Phasellus enim
+           nulla, feugiat non sollicitudin in, fin
+           maximus tellus. Quisque nec lectus comm
+           sollicitudin in, iaculis in odio.</p>
+
+    <div class="mainPoint highlight">This is the main point of the article</div>
+</body>
+
+</html>
